@@ -3,15 +3,14 @@
 Find the sum of all the multiples of 3 or 5 below 1000. */
 
 function clickme(){
-var multiplesOfX = 0 ;
+var multiplesOfX = 0;
 var x = document.getElementById("userInput").value;
 
-for (x = 0 ; x < 1000 ; x++) {
-  if (x % 3 === 0 || x % 5 ===0){
-    multiplesOfX+= x;
+for (var i = 0 ; i < x ; i++) {
+  if (i % 3 === 0 || i % 5 ===0){
+    multiplesOfX+= i;
   }
 }
 
-document.getElementById("outout").innerHTML = multiplesOfX;
-
+document.getElementById("output").innerHTML = multiplesOfX;
 }
