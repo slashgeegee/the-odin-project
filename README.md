@@ -1,6 +1,6 @@
 # the_odin_project
-TOD projects
-
+Odin Projects
+- are being stored here
 #Link to Google Fake Homepage:
 https://rawgit.com/kboygit/the_odin_project/master/powertest/index.html
 
